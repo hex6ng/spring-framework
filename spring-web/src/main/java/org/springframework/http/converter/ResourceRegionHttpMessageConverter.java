@@ -44,7 +44,7 @@ import org.springframework.util.StreamUtils;
  * @author Juergen Hoeller
  * @since 4.3
  */
-public class ResourceRegionHttpMessageConverter extends AbstractGenericHttpMessageConverter<Object> {
+public class ResourceRegionHttpMessageConverter extends AbstractGenericHttpMessageConverter<ResourceRegion> {
 
 	public ResourceRegionHttpMessageConverter() {
 		super(MediaType.ALL);
